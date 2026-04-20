@@ -70,7 +70,7 @@ module "blog_alb" {
   security_groups = [module.blog_sg.security_group_id]
 
   access_logs = {
-   enabled = false
+    enabled = false
   }
 
   listeners = {
