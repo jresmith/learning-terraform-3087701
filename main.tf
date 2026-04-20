@@ -71,6 +71,7 @@ module "blog_alb" {
 
   access_logs = {
     enabled = false
+    bucket  = ""
   }
 
   listeners = {
